@@ -32,3 +32,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    batchingBasedOnAgentsOption
+    condition: 
+- task: PublishBuildArtifacts@1
